@@ -4,7 +4,7 @@ body {
     padding: 0;
 }
 .header {
-    background-image: url('woodmill.jpg'); /* Replace with the path to your woodmill image */
+    background-image: url('https://woodmizer.co.uk/media/wysiwyg/art_4_1.jpg'); /* Replace with the path to your woodmill image */
     background-size: cover;
     background-position: center;
     color: white;
