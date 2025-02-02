@@ -1,4 +1,4 @@
-# Highland Woodmill
+# Ogham Woodworks
 
 Welcome to Highland Woodmill! We specialize in building custom sheds and huts using locally sourced timber from Scotland.
 
