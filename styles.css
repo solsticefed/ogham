@@ -4,7 +4,9 @@ body {
     padding: 0;
 }
 .header {
-    background-color: #282c34;
+    background-image: url('woodmill.jpg'); /* Replace with the path to your woodmill image */
+    background-size: cover;
+    background-position: center;
     color: white;
     text-align: center;
     padding: 100px 0;
@@ -13,6 +15,9 @@ body {
 .header h1 {
     margin: 0;
     font-size: 3em;
+    background: rgba(0, 0, 0, 0.5); /* Adding a semi-transparent background for better text readability */
+    display: inline-block;
+    padding: 20px;
 }
 .section {
     padding: 50px;
@@ -27,6 +32,20 @@ body {
 .footer {
     background-color: #282c34;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-column {
+    flex: 1;
+    padding: 10px;
+}
+.footer-column h3 {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.footer-column p {
+    margin: 5px 0;
 }
